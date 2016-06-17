@@ -1,8 +1,8 @@
 <?php
-	header("Content-type: text/html; charset=utf-8");
-	//urlÐÎÊ½  index.php?controller=¿ØÖÆÆ÷Ãû&method=·½·¨Ãû
-	error_reporting(E_ALL^E_NOTICE^E_WARNING^E_DEPRECATED);
 
+	header("Content-type: text/html; charset=utf-8");
+	//urlå½¢å¼  index.php?controller=æŽ§åˆ¶å™¨å&method=æ–¹æ³•å
+	error_reporting(E_ALL^E_NOTICE^E_WARNING^E_DEPRECATED);
 	require_once('config.php');
 	require_once('framework/pc.php');
 	PC::run($config);
